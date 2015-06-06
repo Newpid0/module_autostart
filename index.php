@@ -257,7 +257,13 @@ Loading, please wait...
                     <td style="padding-right:10px"><?=$opt_responder[$opt][2]?></td>
                     <td nowrap></td>
                 </tr>
-                
+                <!-- // OPTION M13:Mana --> 
+           	<tr>
+                    <? $opt = "M13"; ?>
+                    <td><input type="checkbox" name="options[]" value="<?=$opt?>" <? if ($opt_responder[$opt][0] == "1") echo "checked" ?> ></td>
+                    <td style="padding-right:10px"><?=$opt_responder[$opt][2]?></td>
+                    <td nowrap></td>
+                </tr>             
             </table>
             </div>
 
